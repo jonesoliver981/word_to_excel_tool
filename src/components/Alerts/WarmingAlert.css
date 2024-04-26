@@ -1,0 +1,26 @@
+.warning-alert {
+    position: fixed;
+    top: 13%;
+    left: 70%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color: #fff3cd; /* Light yellow background */
+    border-color: #ffeeba; /* Light yellow border color */
+    color: #856404; /* Dark yellow text color */
+    padding: 0.75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    width: 30%;
+}
+
+.warning-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #856404; /* Dark yellow icon color */
+}
+
+.alert-message {
+    font-size: 16px;
+    font-weight: bold; /* Make the message bold for emphasis */
+}

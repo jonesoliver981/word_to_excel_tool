@@ -1,0 +1,32 @@
+/* .add-button{
+    width: 30px;
+    border: none;
+    background: none;
+    margin-right: 10px;
+    padding: 0;
+    color: rgb(69, 69, 196);
+} */
+
+.add-button {
+    width: 30px;
+    border: none;
+    background: none;
+    margin-right: 10px;
+    padding: 0;
+    color: rgb(69, 69, 196);
+}
+
+@media screen and (max-width: 768px) {
+    .add-button {
+        width: 5px;
+        margin-left: -70px;
+        margin-top: 200px;
+    }
+
+    .easybutton1{
+        margin-top: 150px;
+        margin-right: 30px;
+    }
+
+}
+

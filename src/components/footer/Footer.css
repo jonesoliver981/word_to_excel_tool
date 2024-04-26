@@ -1,0 +1,25 @@
+.footer-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    background-color:#212529;
+    margin-top: 230px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /* Adjust the height of the footer as needed */
+}
+.footer-container .social-icon {
+    margin-top: 10px;
+    margin: 0 20px; /* Adjust the margin to add space between the social icons */
+}
+.copy-right {
+    display: block;
+    text-align:center; /* Align text to the right */
+    font-size: medium;
+    font-family: Arial, Verdana, Tahoma;
+    background-color: #343a40;
+    padding: 3px; 
+    cursor: pointer;
+}
