@@ -14,13 +14,17 @@
     color: rgba(0, 0, 0, 0.5); 
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
   }
+
+  
   @media screen and (max-width: 768px) {
     .upload-button1 {
       margin-left: 0px;
       width: 0;
-      height:  20px;
+      top: -70px;
+      height:  18px;
       margin-top: 160px;
       position: absolute;
+      height: 10px;
       
     }
     .icon {
@@ -29,14 +33,23 @@
       display: block;
      
     }
-
+    .icon-hidden{
+      display: none;
+    }
+    
+  }
+  .file-name-container {
+    display: flex;
+    flex-direction: column;
   }
   .file-name {
-    top: 5px;
-    position: absolute;
-    margin-left: 1%;
-    font-size: 16px; 
+    font-size: 10px !important;
+    margin-top: 5px ;
+    /* white-space: nowrap; */ 
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
   }
+  
   .icon-hidden{
     display: none;
   }

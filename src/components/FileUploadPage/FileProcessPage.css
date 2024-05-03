@@ -1,5 +1,5 @@
 .cat-lab {
-    top: 50px;
+    top: 70px;
     display: flex;
     margin-top: 2.5%;
     align-items: center;
@@ -41,7 +41,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://www.pngkey.com/png/detail/16-166376_drop-down-arrow-dropdown-arrow-icon-png.png') no-repeat right 5px center;
+    
     background-size: 15px 15px;
     background-color: whitesmoke;
     font-size: 15px;
@@ -76,12 +76,13 @@ button {
 }
 
 .headers-content {
-    left: 25%;
+    left: 17%;
     top: -3%;
     transform: translateY(-50%);
     position: absolute;
     color: rgb(81, 81, 184);
-    font-family: sans-serif;
+    font-family: Tahoma (sans-serif);
+    font-size: 130%;
     animation: fadeInUp 1s ease forwards;
 }
 @keyframes fadeInUp {
@@ -93,6 +94,12 @@ button {
         opacity: 3;
         transform: translateY(10px);
     }
+}
+img{
+    width: 200px;
+    top:1%;
+    left: 10px;
+    position: absolute;
 }
 
 .select-option{
@@ -118,10 +125,10 @@ button {
     font-size: 50px;
     top: -70%;
     left: -240%;
-    white-space: nowrap; /* Prevent text from wrapping */
+    white-space: nowrap; 
     font-family: sans-serif;
     color: rgb(81, 81, 184);
-    filter: none !important; /* Ensure the text is not blurred */
+    filter: none !important; 
 }
 .sucess-alert{
     position: absolute;
@@ -132,24 +139,28 @@ button {
 
 
 @media (max-width: 768px) {
+    img{
+        width: 150px ;
+    }
     .headers-content {
-        left: 0;
-        top: 60px; 
+        left: 10px;
+        top: 15px; 
         transform: none;
-        font-size: 18px;
+        font-size: 20px;
         padding: 10px;
     }
     .cat-lab {
-        left: -10px;
-        top: 30px;
+        left: -5px;
+        top: 60px;
         width: 150vh;
         height: 80px;
     }
     .cat-lab label {
         width: 300px;
-        height: 70px;
-        font-size: 18px; 
-        margin-right: 90px;    
+        height: 50px;
+        font-size: 17px; 
+        margin-right: 90px;   
+         
           
     }
     .label-cat{
@@ -161,7 +172,7 @@ button {
         width: 25%; 
         height: 50%;
         font-size: 14px;
-        margin-top: 30px; 
+        margin-top: 40px; 
     }
     .sub-cat{
         margin-top: 10px;
@@ -170,26 +181,27 @@ button {
 
     .upload-button b {
         position: absolute;
-        top: 10px;
-        margin-left: -80px;
-        font-size: 18px; 
+        top: 5px;
+        margin-left: -70px;
+        font-size: 16px; 
     }
     
     .upload-button span {
         position: absolute;
-        top: 40px;
-        margin-left: 100px;
-        font-size: 10px;
+        top: 25px;
+        margin-left: 20px;
+        height: 10px;
+        font-size: 12px;
         display: block
     }
     .submit-container {
         margin-top: 50px;
         display: flex;
-        width: 160%;
-        margin-left: -15px;
+        width: 150%;
+        margin-left: -18px;
     }
     .submit-button {
-        margin-top: 100px;
+        margin-top: 120px;
         text-align: center;
         background-color: rgb(62, 62, 144);
         color: white;

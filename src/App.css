@@ -23,12 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: rgb(21, 19, 19);
 }
-/* .App-header {
-  background-color: rgba(255, 255, 255, 0.314);
-  /* border: 40px solid rgb(47, 59, 92); */
-  /* display: flex;
-  align-items: center;
-} */ */
+
 .App-link {
   color: #61dafb;
 }

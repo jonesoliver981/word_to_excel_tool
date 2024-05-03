@@ -1,7 +1,7 @@
 .error-alert {
     position: fixed;
-    top: 13%;
-    left: 70%;
+    top: 8%;
+    left:58%;
     transform: translateX(-50%);
     display: flex;
     align-items: center;
@@ -17,9 +17,37 @@
 .x-icon {
     margin-right: 10px;
     font-size: 20px;
-    color: #721c24; /* Red color */
+    color: #721c24;
 }
 
 .alert-message {
     font-size: 16px;
+}
+@media (max-width: 768px) {
+    .error-alert {
+        position: fixed;
+        top: 0%;
+        left:30%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+        color: #721c24;
+        padding: 0.75rem 1.25rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        width: 30%;
+    }
+    
+    .x-icon {
+        margin-right: 10px;
+        font-size: 20px;
+        color: #721c24; 
+    }
+    
+    .alert-message {
+        font-size: 10px !important;
+    }
+    
 }

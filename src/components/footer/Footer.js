@@ -10,9 +10,9 @@ const Footer = () => {
             <SocialIcon url="https://www.twitter.com/" style={{ width: 30, height: 30, marginRight: 10 }} bgColor="#808080" />
             <SocialIcon url="https://www.linkdn.com/" style={{ width: 30, height: 30 }} bgColor="#808080" />
         </div>
-            <diV>
+            <div>
             <span className="copy-right">&#169; Travel Bot 2024. All Rights Reserved.  Privacy Policy | Terms of Service | Contacts </span>
-            </diV>
+            </div>
         </div>
         
     )
