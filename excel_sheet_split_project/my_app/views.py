@@ -40,24 +40,24 @@ class FileCombinedApi(APIView):
         file_datas = request.data.keys()
         file_data1 = [file_data for file_data in file_datas if file_data.startswith('file')]
         if uploaded_data1:
-            return self.Add_Category(request)
+            return self.add_category(request)
         elif file_data1:
-            return self.FileHandle(request)
+            return self.file_handle(request)
 
 
-    def Add_Category(self,request):
+    def add_category(self,request):
             data = request.data
             category_name = data.get('category_name')
             sub_category_names = data.get('sub_category_name')
             if not sub_category_names:
-                if Category.objects.filter(category_name=category_name).exists():
+                if Category.objects.filter(category_name.case_fold() == category_name.case_fold()).exists():
                     return Response({"message": "This Category already exists"}, status=status.HTTP_400_BAD_REQUEST)
                 else:
-                    category = Category.objects.create(category_name=category_name)
+                    category = Category.objects.create(category_name.case_fold() == category_name.case_fold())
             else:
                 try:
                     with transaction.atomic():
-                        category = Category.objects.create(category_name=category_name)
+                        category = Category.objects.create(category_name.case_fold() == category_name.case_fold())
                         for sub_category_name in sub_category_names:
                             SubCategory.objects.create(category=category, sub_category_name=sub_category_name)
                     return Response({"message": "Category and subcategories created successfully", "id": category.id}, status=status.HTTP_201_CREATED)
@@ -65,7 +65,7 @@ class FileCombinedApi(APIView):
                     return Response({"message": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
           
 
-    def FileHandle(self,request):
+    def file_handle(self,request):
         file_datas = request.data.keys()
         file_data1 = [file_data for file_data in file_datas if file_data.startswith('file')]
         if file_data1:
@@ -123,11 +123,10 @@ class FileCombinedApi(APIView):
                 return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             
         
-    def delete(self, request, id=None, sub_category_name=[], format=None):
-
-        if id and sub_category_name:
-            return self.delete_sub_category_name(id, sub_category_name)
-        elif id:
+    def delete(self, request, id=None, sub_category_id=None, format=None):
+        if id is not None and sub_category_id is not None:
+            return self.delete_sub_category_name(id, sub_category_id)
+        elif id is not None:
             return self.delete_category(id)
         else:
             return Response({"message": "Invalid request."}, status=status.HTTP_400_BAD_REQUEST)
@@ -148,14 +147,16 @@ class FileCombinedApi(APIView):
             return Response({"message": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
 
-    def delete_sub_category_name(self,id,sub_category_name):
+    def delete_sub_category_name(self, id, sub_category_id):
         try:
             category = Category.objects.get(id=id)
-            subcategories = SubCategory.objects.filter(category=category, sub_category_name=sub_category_name)
-            subcategories.delete()
-            return Response({"message": f"Subcategories '{', '.join(sub_category_name)}' in category  deleted successfully"}, status=status.HTTP_204_NO_CONTENT)
+            subcategory = SubCategory.objects.get(id=sub_category_id, category=category)
+            subcategory.delete()
+            return Response({"message": f"Subcategory '{subcategory.sub_category_name}' in category '{category.category_name}' deleted successfully"}, status=status.HTTP_204_NO_CONTENT)
         except Category.DoesNotExist:
-            return Response({"message": f"Category  does not exist"}, status=status.HTTP_404_NOT_FOUND)
+            return Response({"message": "Category does not exist"}, status=status.HTTP_404_NOT_FOUND)
+        except SubCategory.DoesNotExist:
+            return Response({"message": "Subcategory does not exist in the given category"}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
             return Response({"message": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
@@ -163,7 +164,7 @@ class FileCombinedApi(APIView):
     def put(self, request, id=None,category_name=None, format=None):
 
         if category_name and id:
-            return self.update_category_and_subCategory(request,id)
+            return self.update_sub_Category(request,id)
         
         elif id:
              return self.update_category(request, id)
@@ -192,7 +193,7 @@ class FileCombinedApi(APIView):
         return Response({'message': 'Category was updated successfully'}, status=status.HTTP_200_OK)
     
 
-    def update_category_and_subCategory(self, request, id):
+    def update_sub_Category(self, request, id):
 
         try:
             categories = Category.objects.filter(id=id)

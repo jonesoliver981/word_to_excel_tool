@@ -10,5 +10,5 @@ urlpatterns = [
     path('categories/<int:id>/update/', FileCombinedApi.as_view(), name='category-update'),  
     path('categories/<int:id>/<str:category_name>/update-subcategories/', FileCombinedApi.as_view(), name='category-update-subcategories'),  # Added URL pattern for updating subcategories
     path('categories/<int:id>/delete/', FileCombinedApi.as_view(), name='category-delete'),
-    path('subcategories/<int:id>/<str:sub_category_name>/delete/', FileCombinedApi.as_view(), name='subcategory-delete'),
+    path('subcategories/<int:id>/<int:sub_category_id>/delete/', FileCombinedApi.as_view(), name='subcategory-delete'),
 ]

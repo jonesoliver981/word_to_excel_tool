@@ -1796,3 +1796,61 @@ UnboundLocalError: local variable 'sub_category_name' referenced before assignme
 2024-05-08 12:10:16,849 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
 2024-05-08 12:10:50,000 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
 2024-05-08 12:10:56,285 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 13:40:23,101 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-08 13:40:32,089 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-08 13:40:51,787 - ERROR - Internal Server Error: /api/subcategories/30/82/delete/
+2024-05-08 13:42:55,306 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 13:43:21,246 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 13:43:34,172 - ERROR - Internal Server Error: /api/subcategories/30/82/delete/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 128, in delete
+    return self.delete_sub_category(id, subcategory_id)
+AttributeError: 'FileCombinedApi' object has no attribute 'delete_sub_category'
+2024-05-08 13:43:51,109 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 13:44:00,544 - ERROR - Internal Server Error: /api/subcategories/30/82/delete/
+2024-05-08 14:28:57,808 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 14:29:07,364 - ERROR - Internal Server Error: /api/subcategories/30/82/delete/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 128, in delete
+    return self.delete_sub_category_name(id, subcategory_id)
+AttributeError: 'FileCombinedApi' object has no attribute 'delete_sub_category_name'
+2024-05-08 14:29:27,621 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 14:29:34,823 - WARNING - Not Found: /api/subcategories/30/82/delete/
+2024-05-08 14:31:43,003 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 14:31:57,731 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 14:32:05,304 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 14:33:08,794 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 14:33:17,837 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 14:35:14,382 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
