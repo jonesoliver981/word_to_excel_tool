@@ -1,0 +1,1788 @@
+2024-05-06 11:29:09,030 - WARNING - Not Found: /
+2024-05-06 11:29:09,804 - WARNING - Not Found: /favicon.ico
+2024-05-06 11:29:17,380 - WARNING - Not Found: /api/
+2024-05-06 11:35:17,847 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 11:35:42,688 - ERROR - Internal Server Error: /api/combine-excel/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 40, in post
+    breakpoint()
+NameError: name 'brea' is not defined
+2024-05-06 15:07:37,801 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:07:46,026 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:08:11,403 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:10:05,780 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:12:23,653 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:12:36,083 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:12:45,575 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:13:17,402 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:13:28,629 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:16:13,204 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:16:51,683 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:19:03,856 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:19:23,212 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:19:28,849 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:20:31,775 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:20:41,798 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 15:20:59,683 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:04:43,794 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:10:35,122 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:10:42,607 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:10:49,599 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:11:00,283 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:11:06,451 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:11:12,104 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:11:29,075 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:11:42,802 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:11:56,584 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:12:14,796 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:12:25,095 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:12:30,459 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:12:47,004 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:12:55,856 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:13:54,741 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:14:00,512 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:14:57,733 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:15:06,622 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:15:11,868 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:15:17,411 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:15:27,432 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:15:34,602 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:15:54,434 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:16:00,173 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:16:45,926 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:16:51,532 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:16:59,902 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:17:37,048 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:24:25,503 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:24:32,742 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:25:04,990 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:25:25,883 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:25:32,460 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:26:05,223 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:26:10,620 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:26:16,782 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:26:23,599 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:26:29,122 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:26:35,867 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:27:38,449 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:29:19,783 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:29:48,102 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:30:11,436 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:30:31,578 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:30:36,790 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:34:53,130 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:35:01,562 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:35:08,202 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:35:16,083 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:35:23,740 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:35:44,921 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:35:50,703 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:36:03,677 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:36:09,623 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:36:20,809 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:36:28,175 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:36:35,026 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:36:44,166 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:36:49,469 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:36:55,140 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:37:00,997 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:37:16,958 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:37:31,218 - WARNING - Bad Request: /api/combine-excel/
+2024-05-06 16:37:57,011 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:38:04,102 - WARNING - Bad Request: /api/combine-excel/
+2024-05-06 16:38:17,980 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:38:24,842 - WARNING - Bad Request: /api/combine-excel/
+2024-05-06 16:41:17,517 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:41:25,456 - WARNING - Unsupported Media Type: /api/combine-excel/
+2024-05-06 16:41:42,863 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:41:50,576 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:41:57,214 - WARNING - Unsupported Media Type: /api/combine-excel/
+2024-05-06 16:42:05,231 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 16:42:09,991 - WARNING - Unsupported Media Type: /api/combine-excel/
+2024-05-06 16:42:25,162 - WARNING - Unsupported Media Type: /api/combine-excel/
+2024-05-06 16:42:50,160 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:09:30,138 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:09:44,914 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:10:38,897 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:10:47,311 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:11:41,897 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:11:52,597 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:11:58,161 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:12:51,450 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:13:33,644 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:13:43,680 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:14:07,885 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:14:50,003 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:15:08,844 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:15:28,565 - WARNING - Bad Request: /api/combine-excel/
+2024-05-06 17:15:45,318 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:17:46,133 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:17:52,711 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:17:58,521 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:22:18,682 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:25:47,820 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:25:53,838 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:26:01,640 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:26:14,416 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:26:22,279 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:26:28,911 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:26:40,133 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:26:54,450 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:27:01,966 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:27:10,747 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:27:18,393 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:27:26,171 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:29:00,767 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:29:06,088 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:29:12,661 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:30:26,420 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:30:31,957 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:35:50,009 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:35:57,064 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:36:12,617 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:36:30,850 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:36:37,468 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:37:45,070 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:38:04,303 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:39:18,166 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:39:28,126 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:39:33,527 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:39:59,235 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:40:06,092 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:40:15,136 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:40:34,482 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:40:45,794 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:40:53,387 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:44:11,684 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:44:17,445 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:44:22,850 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:44:30,394 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:44:49,840 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:44:58,479 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:45:03,980 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:45:22,022 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:45:47,722 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:45:54,035 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:46:01,461 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:46:06,964 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:47:49,309 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:48:13,963 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:48:19,205 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:48:27,909 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:48:34,148 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:49:37,163 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:49:44,655 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:49:50,044 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:50:03,790 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:50:43,909 - WARNING - Bad Request: /api/combine-excel/
+2024-05-06 17:55:38,996 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:55:51,789 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:56:04,881 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:56:34,786 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:56:40,092 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:56:46,227 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\models.py changed, reloading.
+2024-05-06 17:56:51,919 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:57:15,655 - WARNING - Bad Request: /api/combine-excel/
+2024-05-06 17:58:03,297 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:58:08,912 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 17:58:17,443 - WARNING - Bad Request: /api/combine-excel/
+2024-05-06 18:00:36,277 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:00:44,639 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:00:51,594 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:03:01,123 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:03:06,754 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:04:05,085 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:04:16,432 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:04:23,114 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:04:34,217 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:09:01,220 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:09:08,610 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:09:43,947 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:09:53,760 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:10:06,260 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:10:11,693 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:10:20,199 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:10:29,357 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:13:40,786 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:13:46,079 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:13:52,939 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:13:58,454 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:14:03,959 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:14:09,219 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:14:15,536 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:14:21,988 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:14:59,503 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:15:54,675 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:16:45,044 - ERROR - Internal Server Error: /api/categories/Things to See add new/delete/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 130, in delete
+    category = CategorySubcategory.objects.get(category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+my_app.models.CategorySubcategory.MultipleObjectsReturned: get() returned more than one CategorySubcategory -- it returned 9!
+2024-05-06 18:18:40,353 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:43:12,658 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:43:19,620 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:45:30,873 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:45:36,532 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:45:47,652 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:45:54,916 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:46:13,687 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:46:19,011 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:46:24,201 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:46:29,525 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:46:34,749 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:46:53,847 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:47:08,664 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:47:16,390 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:47:21,715 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:47:39,780 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:47:49,894 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:48:12,339 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:48:20,058 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:48:26,772 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:48:41,395 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:48:49,724 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:48:55,251 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:50:06,004 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:50:11,605 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:50:37,373 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:51:07,722 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:51:45,631 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:52:01,815 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:52:09,142 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:53:57,275 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:54:13,691 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 18:58:04,114 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 18:59:35,205 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:02:10,288 - ERROR - Internal Server Error: /api/categories/Things to See/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: FileCombinedApi.get() got an unexpected keyword argument 'category_name'
+2024-05-06 19:05:50,198 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:06:00,136 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:06:15,063 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:06:22,800 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:06:28,394 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:06:41,577 - ERROR - Internal Server Error: /api/categories/Things to See/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2024-05-06 19:08:31,364 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:09:17,348 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:09:34,573 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:12:06,315 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:12:12,739 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 19:13:34,406 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:36:48,598 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:41:02,492 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:41:13,800 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:41:49,598 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:42:08,989 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:42:17,533 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:42:25,427 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:42:34,645 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:42:57,197 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:43:12,692 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:45:59,913 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:46:09,001 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:46:17,325 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:46:31,616 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:46:52,621 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:47:01,180 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:47:09,728 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:47:23,277 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:47:32,837 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:47:43,653 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:47:55,016 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:48:05,717 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:54:12,261 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:54:25,220 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:54:35,180 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:55:32,549 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:56:29,459 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:56:44,543 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:56:56,264 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:57:05,986 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:57:22,172 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:57:31,159 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:57:46,723 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:58:41,368 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:58:59,916 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:59:37,546 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:59:46,891 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 20:59:59,775 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:00:13,899 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:00:24,468 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:02:21,711 - WARNING - Bad Request: /api/categories/hings to See add new/
+2024-05-06 21:04:01,970 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:04:33,486 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:05:01,842 - WARNING - Not Found: /api/categories/hings to See add new/upadate/
+2024-05-06 21:06:10,367 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:07:15,531 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:07:31,102 - WARNING - Not Found: /api/categories/hings to See add new/upadate/
+2024-05-06 21:15:21,542 - WARNING - Not Found: /api/categories/hings to See add new/upadate/
+2024-05-06 21:15:45,012 - WARNING - Not Found: /api/categories/hings to See add new/upadate/
+2024-05-06 21:16:33,928 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:17:47,530 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:17:58,591 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:18:18,485 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:19:00,833 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:19:44,778 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:19:56,195 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:20:14,602 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:23:20,031 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:25:28,487 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:29:25,854 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:29:37,689 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:29:47,892 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:31:57,023 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:32:06,738 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:32:14,744 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:32:24,098 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:32:44,319 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:32:59,161 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:33:08,762 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:33:21,088 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:33:27,437 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:33:34,290 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:33:45,351 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:33:52,524 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:34:03,243 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:34:12,454 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:34:23,367 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:37:02,162 - WARNING - Not Found: /api/categories/Things to See add new/upadate/
+2024-05-06 21:37:16,806 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-06 21:37:35,984 - WARNING - Not Found: /api/category/Things to See add new/upadate/
+2024-05-06 21:38:39,388 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 154, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 161, in update_category
+    category = CategorySubcategory.objects.get(category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+my_app.models.CategorySubcategory.MultipleObjectsReturned: get() returned more than one CategorySubcategory -- it returned 8!
+2024-05-06 21:40:27,852 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:40:51,252 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:41:04,155 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-06 21:43:28,162 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-06 21:44:01,495 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:44:09,778 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:44:23,632 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-06 21:44:31,824 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:44:41,629 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:44:51,751 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:45:00,230 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:45:35,703 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 159, in update_category
+    category = CategorySubcategory.objects.get(category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+my_app.models.CategorySubcategory.MultipleObjectsReturned: get() returned more than one CategorySubcategory -- it returned 8!
+2024-05-06 21:46:02,271 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:46:09,617 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 159, in update_category
+    category = CategorySubcategory.objects.get(category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+my_app.models.CategorySubcategory.MultipleObjectsReturned: get() returned more than one CategorySubcategory -- it returned 8!
+2024-05-06 21:46:20,321 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:46:28,343 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 163, in update_category
+    data = request.data[0]
+KeyError: 0
+2024-05-06 21:46:35,275 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:46:54,760 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 174, in update_category
+    category.sub_category_name.clear()
+AttributeError: 'QuerySet' object has no attribute 'sub_category_name'
+2024-05-06 21:47:13,335 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-06 21:47:21,851 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 174, in update_category
+    category.sub_category_name.clear()
+AttributeError: 'QuerySet' object has no attribute 'sub_category_name'
+2024-05-06 21:47:37,636 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:24:07,944 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:24:37,132 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 159, in update_category
+    category = CategorySubcategory.objects.get(category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+my_app.models.CategorySubcategory.MultipleObjectsReturned: get() returned more than one CategorySubcategory -- it returned 8!
+2024-05-07 01:25:03,385 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:25:18,500 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 160, in update_category
+    category = CategorySubcategory.objects.get(category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+my_app.models.CategorySubcategory.MultipleObjectsReturned: get() returned more than one CategorySubcategory -- it returned 8!
+2024-05-07 01:27:23,023 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 160, in update_category
+    category = CategorySubcategory.objects.get(category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+my_app.models.CategorySubcategory.MultipleObjectsReturned: get() returned more than one CategorySubcategory -- it returned 8!
+2024-05-07 01:29:20,019 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 160, in update_category
+    category = CategorySubcategory.objects.get(category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+my_app.models.CategorySubcategory.MultipleObjectsReturned: get() returned more than one CategorySubcategory -- it returned 8!
+2024-05-07 01:29:40,392 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:30:12,819 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 01:30:24,836 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:30:44,602 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 01:31:34,380 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 01:31:48,218 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:33:14,480 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:33:57,020 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:34:07,323 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:34:17,873 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:35:20,847 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 178, in update_category
+    category.sub_category_name.clear()
+AttributeError: 'QuerySet' object has no attribute 'sub_category_name'
+2024-05-07 01:40:35,304 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:40:48,323 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+AttributeError: 'FileCombinedApi' object has no attribute 'update_category'
+2024-05-07 01:41:47,669 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 01:42:38,229 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:43:06,576 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:43:20,259 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:45:43,025 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:45:54,493 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 01:47:45,322 - WARNING - Not Found: /api/category/Things to See add new/update/
+
+2024-05-07 01:49:28,589 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:49:36,535 - WARNING - Not Found: /api/category/Things to See add new/update/
+
+2024-05-07 01:49:55,402 - WARNING - Not Found: /api/category/Things to See add new/update/
+
+2024-05-07 01:51:00,320 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 01:57:26,803 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:57:38,201 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:57:45,735 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 01:58:06,989 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 175, in update_category
+    category.sub_category_name.clear()
+AttributeError: 'str' object has no attribute 'clear'
+2024-05-07 02:02:12,028 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:03:02,861 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 177, in update_category
+    category.sub_category_name.create(sub_category_name=sub_category_name)
+AttributeError: 'str' object has no attribute 'create'
+2024-05-07 02:03:46,414 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:04:37,687 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:04:50,748 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:05:19,653 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 02:08:01,121 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:12:09,865 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:12:17,814 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:13:16,343 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:13:48,324 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:13:54,666 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:14:24,629 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:15:19,257 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:15:29,065 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:16:34,964 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:17:20,423 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:17:27,298 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:17:41,775 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:18:40,632 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:20:32,600 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:22:35,641 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:22:45,576 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:22:51,641 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:23:08,936 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:23:49,877 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:25:10,257 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:25:16,395 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:25:36,010 - ERROR - Internal Server Error: /api/category/Things to See add sadf/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 173, in update_category
+    category.sub_category_name = sub_category_names.pop(0)
+IndexError: pop from empty list
+2024-05-07 02:26:01,938 - ERROR - Internal Server Error: /api/category/Things to See add sadf/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 173, in update_category
+    category.sub_category_name = sub_category_names.pop(0)
+IndexError: pop from empty list
+2024-05-07 02:26:20,020 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:29:59,488 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:30:11,049 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:30:16,814 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:30:40,997 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:30:47,283 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:30:54,098 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:31:03,256 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:31:09,288 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:31:33,888 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:31:39,626 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:31:45,534 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:31:53,967 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:33:56,151 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:34:03,818 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:35:43,203 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:36:07,093 - ERROR - Internal Server Error: /api/category/Things to See add sadf/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 169, in update_category
+    for sub_ in sub_len:
+TypeError: 'int' object is not iterable
+2024-05-07 02:38:53,574 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:39:06,620 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:39:15,384 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:39:25,203 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:40:01,962 - ERROR - Internal Server Error: /api/category/Things to See add sadf/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 170, in update_category
+    if len(categories) == len(sub_len):
+TypeError: object of type 'int' has no len()
+2024-05-07 02:40:15,089 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:45:14,555 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:45:24,510 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:47:59,891 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:51:03,407 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:53:05,185 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:54:46,266 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:54:51,715 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:56:43,312 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 02:58:05,591 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 03:00:25,158 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 03:01:51,154 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 03:02:45,813 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 11:08:48,387 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 11:09:55,847 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 11:10:07,146 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 11:10:25,524 - ERROR - Internal Server Error: /api/category/Things to See add sadf/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 153, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 174, in update_category
+    category.sub_category_name = sub_category_name.pop(0)
+TypeError: set.pop() takes no arguments (1 given)
+2024-05-07 11:10:35,838 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 11:13:06,104 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 11:20:08,062 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\models.py changed, reloading.
+2024-05-07 11:20:57,153 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\models.py changed, reloading.
+2024-05-07 11:58:37,663 - WARNING - Not Found: /
+2024-05-07 11:58:38,807 - WARNING - Not Found: /favicon.ico
+2024-05-07 12:02:37,932 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 12:03:47,745 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 12:03:58,668 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 12:04:20,717 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:29:11,447 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:29:17,783 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:29:46,472 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:29:57,400 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:30:49,952 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:37:27,160 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:37:34,875 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:38:18,705 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:38:34,452 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:38:46,964 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:41:13,515 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:41:26,155 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:42:04,317 - WARNING - Bad Request: /api/combine-excel/
+2024-05-07 13:42:18,643 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:42:25,218 - WARNING - Bad Request: /api/combine-excel/
+2024-05-07 13:43:14,096 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:43:22,722 - WARNING - Bad Request: /api/combine-excel/
+2024-05-07 13:43:29,583 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:43:41,363 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:44:28,678 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:44:54,950 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:46:24,869 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:46:30,674 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:46:37,700 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:47:00,473 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:47:34,079 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:47:42,072 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:47:47,704 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:48:10,503 - ERROR - Internal Server Error: /api/categories/Things to See for free/delete/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 144, in delete
+    return self.delete_category(category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 149, in delete_category
+    categories = Category.objects.filter(category_name=category_name)
+NameError: name 'cate' is not defined
+2024-05-07 13:50:46,867 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:50:54,817 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:51:02,783 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:51:08,371 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:51:15,280 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:54:09,362 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:54:17,063 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 13:56:37,734 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:41:42,645 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:42:02,261 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:42:20,450 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:42:57,504 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:43:05,289 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:43:14,087 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:43:24,225 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:43:44,159 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:44:02,940 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:44:30,801 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:45:55,435 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:46:13,001 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:46:40,144 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 14:47:23,616 - WARNING - Not Found: /api/categories/Things to See for new/Beaches/delete/
+2024-05-07 14:48:36,152 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 14:48:43,414 - WARNING - Not Found: /api/categories/Things to See for new/Beaches/delete/
+2024-05-07 14:53:09,027 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:02:49,399 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:03:02,752 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:03:10,511 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:06:20,790 - WARNING - Bad Request: /api/category/Things to See add sadf/update/
+2024-05-07 15:09:59,712 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:10:08,020 - WARNING - Bad Request: /api/category/Things to See for new/update/
+2024-05-07 15:11:02,680 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:11:18,115 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:11:23,638 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:12:19,672 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:12:25,436 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:12:33,019 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:12:51,849 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:12:57,386 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:15:03,659 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:15:11,389 - ERROR - Internal Server Error: /api/category/Things to See add sadf/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 157, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 191, in update_category
+    subcategories[sub_len:].delete()
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 724, in delete
+    assert not self.query.is_sliced, \
+AssertionError: Cannot use 'limit' or 'offset' with delete.
+2024-05-07 15:15:30,066 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:15:37,236 - ERROR - Internal Server Error: /api/category/Things to See add sadf/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 157, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 192, in update_category
+    subcategories[sub_len:].delete()
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 724, in delete
+    assert not self.query.is_sliced, \
+AssertionError: Cannot use 'limit' or 'offset' with delete.
+2024-05-07 15:16:39,046 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:22:12,803 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:28:13,999 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:29:19,622 - WARNING - Bad Request: /api/category/Things to See add sadf/update/
+2024-05-07 15:35:00,238 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:35:19,989 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:35:39,590 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:37:16,223 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 157, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 185, in update_category
+    subcategory.sub_category_name = sub_category_names.pop(0)
+IndexError: pop from empty list
+2024-05-07 15:37:39,010 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:37:45,886 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:37:51,739 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:39:54,695 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:40:18,467 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:40:24,035 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:40:37,629 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:40:51,248 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:42:26,144 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:44:45,929 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:45:09,231 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:46:49,130 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:47:04,012 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:47:11,942 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 15:49:13,387 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:49:29,713 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:49:35,256 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:49:40,980 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:49:46,221 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:49:57,665 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:50:04,461 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:50:13,728 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:50:55,438 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 15:57:38,538 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:01:26,575 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:01:32,973 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:02:26,838 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:03:33,795 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:16:42,245 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "sub_category_name" of relation "sub_category" violates not-null constraint
+DETAIL:  Failing row contains (76, null, 29).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 161, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 194, in update_category
+    SubCategory.objects.create(category=category, sub_category_name=sub_category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "sub_category_name" of relation "sub_category" violates not-null constraint
+DETAIL:  Failing row contains (76, null, 29).
+
+2024-05-07 16:17:51,286 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 16:18:56,575 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:19:16,360 - WARNING - Bad Request: /api/category/Things to See add sad/update/
+2024-05-07 16:19:40,373 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:19:47,333 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 16:20:54,456 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:22:42,151 - WARNING - Bad Request: /api/category/Things to See add sad/update/
+2024-05-07 16:26:20,764 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:26:43,384 - ERROR - Internal Server Error: /api/category/Things to See add new/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 161, in put
+    return self.update_category(request, category_name)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 186, in update_category
+    subcategory.sub_category_name = sub_category_names[i]
+IndexError: list index out of range
+2024-05-07 16:29:11,678 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:30:09,480 - WARNING - Bad Request: /api/category/Things to See add sad/update/
+2024-05-07 16:32:56,537 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 16:33:06,688 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 16:33:54,338 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:34:05,948 - WARNING - Bad Request: /api/category/Things to See add sad/update/
+2024-05-07 16:34:55,607 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 16:36:33,737 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:37:15,218 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:37:22,138 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:39:12,494 - WARNING - Bad Request: /api/category/Things to See add new/update/
+2024-05-07 16:40:36,815 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:41:05,177 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:45:59,765 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:46:46,672 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:46:52,616 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:46:59,674 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:50:33,277 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 16:50:39,137 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:37:28,159 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:48:14,516 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:53:20,899 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:53:29,273 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:53:36,734 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:53:43,798 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:53:53,373 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 17:54:00,150 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 17:54:43,908 - WARNING - Bad Request: /api/category/30/update/
+2024-05-07 17:55:10,241 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:55:35,637 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:57:19,957 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:57:39,479 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 17:57:48,993 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:01:17,885 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:01:33,631 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:01:51,622 - ERROR - Internal Server Error: /api/category/30/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 165, in put
+    return self.update_category(request, id)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 188, in update_category
+    for i, subcategory in enumerate(subcategories)[:sub_len]:
+TypeError: 'enumerate' object is not subscriptable
+2024-05-07 18:01:59,768 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:02:12,106 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:02:28,603 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:02:42,522 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:12:13,826 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:12:25,286 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:25:58,454 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:26:19,616 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:34:32,477 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:34:40,247 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:38:56,627 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:39:11,416 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:39:24,115 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:39:37,921 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:39:50,352 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:40:04,050 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:40:10,586 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:40:58,778 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:43:09,693 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:45:47,161 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:45:58,341 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:47:40,365 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:47:57,627 - ERROR - Internal Server Error: /api/category/30/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 165, in put
+    return self.update_category(request, id)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 185, in update_category
+    for key, value in categories.items():
+AttributeError: 'QuerySet' object has no attribute 'items'
+2024-05-07 18:48:09,982 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:48:20,048 - ERROR - Internal Server Error: /api/category/30/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 165, in put
+    return self.update_category(request, id)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 185, in update_category
+    for key, value in categories:
+TypeError: cannot unpack non-iterable Category object
+2024-05-07 18:48:29,439 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:48:39,744 - ERROR - Internal Server Error: /api/category/30/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 165, in put
+    return self.update_category(request, id)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 185, in update_category
+    for key, value in categories.items():
+AttributeError: 'QuerySet' object has no attribute 'items'
+2024-05-07 18:49:48,684 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:51:22,800 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:51:35,959 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:51:44,205 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:51:54,088 - ERROR - Internal Server Error: /api/category/30/update/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "sub_category_name" of relation "sub_category" violates not-null constraint
+DETAIL:  Failing row contains (90, null, 30).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 165, in put
+    return self.update_category(request, id)
+  File "E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py", line 196, in update_category
+    SubCategory.objects.create(category=category, sub_category_name=sub_category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "sub_category_name" of relation "sub_category" violates not-null constraint
+DETAIL:  Failing row contains (90, null, 30).
+
+2024-05-07 18:53:28,358 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:53:57,802 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:54:10,395 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:54:17,267 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:56:59,253 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:57:36,811 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 18:59:29,788 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 19:00:48,290 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 19:07:59,208 - INFO - E:\Excel_django\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 19:53:04,040 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:54:29,759 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:54:57,343 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:55:13,846 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:55:34,770 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:55:45,294 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:55:56,983 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:56:33,217 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:57:18,163 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:59:06,896 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 19:59:27,944 - ERROR - Internal Server Error: /api/combine-excel/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 44, in post
+    return self.Add_Category(request)
+TypeError: FileCombinedApi.Add_Category() takes 1 positional argument but 2 were given
+2024-05-07 19:59:52,066 - ERROR - Internal Server Error: /api/combine-excel/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 44, in post
+    return self.Add_Category(request)
+TypeError: FileCombinedApi.Add_Category() takes 1 positional argument but 2 were given
+2024-05-07 20:00:49,274 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:04:52,559 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:05:11,941 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:05:37,754 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:07:08,462 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:09:25,914 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:09:38,419 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:09:47,148 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:12:13,932 - WARNING - Bad Request: /api/combine-excel/
+2024-05-07 20:14:05,145 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:14:25,801 - WARNING - Bad Request: /api/combine-excel/
+2024-05-07 20:15:30,375 - ERROR - Internal Server Error: /api/combine-excel/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 44, in post
+    return self.Add_Category(request)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 59, in Add_Category
+    category = Category.objects.create(id=category.id,category_name=category_name)
+UnboundLocalError: local variable 'category' referenced before assignment
+2024-05-07 20:15:43,292 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:15:56,468 - ERROR - Internal Server Error: /api/combine-excel/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\fields\__init__.py", line 1823, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 44, in post
+    return self.Add_Category(request)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 59, in Add_Category
+    category = Category.objects.create(id=id,category_name=category_name)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\fields\__init__.py", line 2486, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\db\models\fields\__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <built-in function id>.
+2024-05-07 20:16:12,680 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:16:22,294 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:18:57,576 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:20:32,254 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:20:42,439 - ERROR - Internal Server Error: /api/combine-excel/
+Traceback (most recent call last):
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\olive\.conda\envs\django\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 44, in post
+    return self.Add_Category(request)
+  File "E:\new_code\backend\excel_sheet_split_project\my_app\views.py", line 54, in Add_Category
+    if not sub_category_name:
+UnboundLocalError: local variable 'sub_category_name' referenced before assignment
+2024-05-07 20:20:53,359 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:22:53,261 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:25:18,534 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:25:42,874 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:28:09,549 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:28:45,081 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:30:04,526 - WARNING - Not Found: /api/c/30/update/
+2024-05-07 20:30:19,295 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:30:24,012 - WARNING - Not Found: /api/c/30/update/
+2024-05-07 20:30:47,857 - WARNING - Not Found: /api/c/30/update/
+2024-05-07 20:32:07,212 - WARNING - Not Found: /api/c/
+2024-05-07 20:33:58,333 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:34:09,314 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:34:15,580 - WARNING - Not Found: /api/c/30/update/
+2024-05-07 20:35:54,374 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:36:13,035 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:36:20,152 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:36:26,928 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:36:38,740 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:36:44,421 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:36:57,756 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:37:07,591 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:37:26,457 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:37:32,661 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:37:46,504 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:37:53,431 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:38:10,461 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:38:22,474 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:39:01,013 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:44:59,333 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:46:04,194 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:46:09,168 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:46:34,884 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:46:40,472 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:47:20,926 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:47:53,862 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:48:00,937 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:48:07,603 - WARNING - Bad Request: /api/categories/30/beach/update/
+2024-05-07 20:50:16,785 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 20:51:09,438 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:51:20,824 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:51:26,992 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:51:33,254 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 20:58:13,116 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 21:01:38,731 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:01:47,589 - WARNING - Not Found: /api/categories/30/subcategories/update/
+2024-05-07 21:02:35,230 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:02:43,344 - WARNING - Not Found: /api/categories/30/subcategories/update/
+2024-05-07 21:03:04,888 - WARNING - Not Found: /api/categories/30/subcategories/update/
+2024-05-07 21:03:16,089 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:03:28,775 - WARNING - Not Found: /api/categories/30/subcategories/update/
+2024-05-07 21:03:42,613 - WARNING - Not Found: /api/categories/30/subcategories/update/
+2024-05-07 21:04:32,314 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:07:28,432 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:07:45,261 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-07 21:12:21,208 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:12:41,972 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:19:30,082 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:19:53,293 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:20:01,203 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:20:10,245 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:20:16,199 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:21:01,786 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:24:13,659 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:25:13,251 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:25:23,325 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:25:29,235 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:25:44,037 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:26:50,310 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:26:58,453 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:27:06,427 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:27:20,934 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:27:31,567 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:27:37,259 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:27:56,674 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:28:13,410 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:28:20,246 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-07 21:28:26,449 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:03:24,053 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-08 11:03:37,447 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:03:53,060 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:05:55,229 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\urls.py changed, reloading.
+2024-05-08 11:06:12,846 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:06:23,458 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:06:31,930 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:06:47,426 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:06:56,697 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:07:26,552 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:07:35,077 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:07:47,193 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:07:55,526 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
