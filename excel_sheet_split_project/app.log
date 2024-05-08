@@ -1789,3 +1789,10 @@ UnboundLocalError: local variable 'sub_category_name' referenced before assignme
 2024-05-08 11:57:26,648 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
 2024-05-08 11:57:55,467 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\serializers.py changed, reloading.
 2024-05-08 11:58:05,836 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\models.py changed, reloading.
+2024-05-08 12:05:11,452 - WARNING - Not Found: /api/subcategories/30/aa/delete/
+2024-05-08 12:06:23,830 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 12:06:30,588 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 12:07:04,200 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 12:10:16,849 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 12:10:50,000 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 12:10:56,285 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.

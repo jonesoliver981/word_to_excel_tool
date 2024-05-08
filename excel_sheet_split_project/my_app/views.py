@@ -126,7 +126,6 @@ class FileCombinedApi(APIView):
     def delete(self, request, id=None, sub_category_name=[], format=None):
 
         if id and sub_category_name:
-            breakpoint()
             return self.delete_sub_category_name(id, sub_category_name)
         elif id:
             return self.delete_category(id)
@@ -151,8 +150,8 @@ class FileCombinedApi(APIView):
 
     def delete_sub_category_name(self,id,sub_category_name):
         try:
-            category = Category.objects.get(category_name=id)
-            subcategories = SubCategory.objects.filter(category=category, sub_category_name__in=sub_category_name)
+            category = Category.objects.get(id=id)
+            subcategories = SubCategory.objects.filter(category=category, sub_category_name=sub_category_name)
             subcategories.delete()
             return Response({"message": f"Subcategories '{', '.join(sub_category_name)}' in category  deleted successfully"}, status=status.HTTP_204_NO_CONTENT)
         except Category.DoesNotExist:
