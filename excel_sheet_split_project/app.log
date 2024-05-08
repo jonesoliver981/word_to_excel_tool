@@ -1786,3 +1786,6 @@ UnboundLocalError: local variable 'sub_category_name' referenced before assignme
 2024-05-08 11:07:35,077 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
 2024-05-08 11:07:47,193 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
 2024-05-08 11:07:55,526 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:57:26,648 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\views.py changed, reloading.
+2024-05-08 11:57:55,467 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\serializers.py changed, reloading.
+2024-05-08 11:58:05,836 - INFO - E:\new_code\backend\excel_sheet_split_project\my_app\models.py changed, reloading.
