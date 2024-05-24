@@ -1,0 +1,34 @@
+
+@media (max-width: 892.98px) {
+     .header-container .headers-content { 
+      display: none;
+    } 
+    .mobile-title {
+      display: block;
+      margin: 0;
+      font-size: 20px;
+      text-align: left;
+      max-width: calc(100% - 100px);
+    }
+    .main-page-section {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .page-wrapper {
+      background-color: #1b338b;
+    }
+    .main-page-section::before {
+      display: none
+    }
+    .main-page-section {
+      background-color: transparent;
+    }
+    .select-size {
+      width: 100% !important;
+    }
+   .link-back {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+   }
+  }

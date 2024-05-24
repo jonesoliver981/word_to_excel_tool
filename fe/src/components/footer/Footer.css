@@ -1,0 +1,19 @@
+.footer {
+    
+    width: 100%;
+    border-top: 1px solid #dadada;
+    background-color:#e8e8e8;    
+    padding: 15px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 892.98px) {
+    .footer .container {
+        flex-direction: column;
+        gap: 5px;
+    }
+}

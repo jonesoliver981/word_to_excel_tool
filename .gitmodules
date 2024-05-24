@@ -1,0 +1,3 @@
+[submodule "fe/excel_sheet_split_project/Excelconversion"]
+	path = fe/excel_sheet_split_project/Excelconversion
+	url = https://github.com/lapisdata/Excelconversion.git

@@ -1,0 +1,27 @@
+
+.header-container {
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 15px;
+  top:0;
+  height: 60px;
+  }
+  .header-container .logo {
+    max-height: 40px;
+    
+  }
+  .header-container .headers-content {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+  }
+  .header-container .logo-link{
+    
+    position: absolute;
+    outline: none;
+    border: none
+  }
+

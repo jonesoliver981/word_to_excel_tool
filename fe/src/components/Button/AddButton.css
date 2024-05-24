@@ -1,0 +1,14 @@
+.add-button, .delete-icon {
+    background-color: #fff;
+    border: none;
+    font-size: 25px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 3px 2px;
+}
+.add-button svg {
+    color: #209546;
+}
+.delete-icon svg {
+    color: red
+}
